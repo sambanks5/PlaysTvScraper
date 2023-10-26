@@ -9,5 +9,5 @@ Scraper works by loading up PlaysTV user page on Wayback Machine, firstrly retri
 PlaysTV used 'infinite scroll' on user pages, I had to also use Selenium Webdriver to simluate the scrolling to the bottom of the page, allowing the additional html to load and adding new video links to the list.
 In the retrieved list of links, remove all those that are not 'video' links. 
 Scraper then retreieves HTML source from each video page, retrieves the .mp4 from the source and downloads it to local folder. 
-It will use the page 'title' as name for video file when downloaded, so they dont come in as '1.mp4, 2.mp4 3.mp4' etc... 
+It will use the page 'title' as name for video file when downloaded.
 
